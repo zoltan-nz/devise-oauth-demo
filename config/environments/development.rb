@@ -54,4 +54,12 @@ Rails.application.configure do
 
   # Inject JavaScript automatically for LiveReload
   config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
+
+  # Devise settings
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # MailCatcher settings
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => '127.0.0.1', :port => 1025 }
+  config.action_mailer.raise_delivery_errors = false
 end
