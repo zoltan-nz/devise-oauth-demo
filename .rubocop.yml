@@ -1,0 +1,12 @@
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  Max: 120
+
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
