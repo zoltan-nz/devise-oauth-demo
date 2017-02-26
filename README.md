@@ -47,3 +47,8 @@ config.action_mailer.raise_delivery_errors = false
 gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
 ```
 * Add import and require to `application.scss` and `application.js`.
+
+### ENVs
+
+FACEBOOK_APP_ID
+FACEBOOK_APP_SECRET
