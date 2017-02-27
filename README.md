@@ -50,5 +50,14 @@ gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
 
 ### ENVs
 
+```
 FACEBOOK_APP_ID
 FACEBOOK_APP_SECRET
+TWITCH_CLIENT_ID
+TWITCH_CLIENT_SECRET
+TWITCH_REDIRECT_URL
+```
+
+```
+TWITCH_REDIRECT_URL=http://localhost:3000/users/auth/twitch/callback TWITCH_CLIENT_ID=1234 TWITCH_CLIENT_SECRET=1234 FACEBOOK_APP_ID=1234 FACEBOOK_APP_SECRET=1234 rails s -b 0.0.0.0
+```

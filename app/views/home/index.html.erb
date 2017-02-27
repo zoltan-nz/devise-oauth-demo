@@ -4,5 +4,9 @@
   </h1>
   <h2>Do whatever you want when you want to.</h2>
   <div class="ui huge primary button">Get Started<i class="right arrow icon"></i></div>
-  <%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %>
+  <ul>
+    <li><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %></li>
+    <li><%= link_to "Sign in with Twitch", user_twitch_omniauth_authorize_path %></li>
+  </ul>
+
 </div>
