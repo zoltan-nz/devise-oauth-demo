@@ -8,7 +8,8 @@ end
 gem 'jbuilder', '~> 2.5'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.2'
-gem 'sqlite3'
+gem 'sqlite3', groups: [:development, :test]
+gem 'pg', group: :production
 gem 'turbolinks', '~> 5'
 
 # ASSETS
